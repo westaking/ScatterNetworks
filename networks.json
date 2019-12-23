@@ -1,4 +1,4 @@
-{  
+{
    "EOSIO":[
       {
         "name":"EOS Mainnet",
@@ -89,6 +89,19 @@
         "token":
         {
           "symbol": "MEETONE",
+          "contract": "eosio.token",
+          "decimals": 4
+        }
+      },
+      {
+        "name": "DAOBet Mainnet",
+        "host": "api.daovalidator.com",
+        "port": 443,
+        "protocol": "https",
+        "chainId": "74d023a9293d9b68c3c52e2f738ee681c1671cc3dc0f263cf2c533cd5523ff95",
+        "token":
+        {
+          "symbol": "BET",
           "contract": "eosio.token",
           "decimals": 4
         }
